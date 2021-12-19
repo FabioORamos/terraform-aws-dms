@@ -1,7 +1,7 @@
-# terraform-aws-rds
+# terraform-aws-dms
 
-[![Lint Status](https://github.com/DNXLabs/terraform-aws-rds/workflows/Lint/badge.svg)](https://github.com/DNXLabs/terraform-aws-rds/actions)
-[![LICENSE](https://img.shields.io/github/license/DNXLabs/terraform-aws-rds)](https://github.com/DNXLabs/terraform-aws-rds/blob/master/LICENSE)
+[![Lint Status](https://github.com/FabioORamos/terraform-aws-rds/workflows/Lint/badge.svg)](https://github.com/FabioORamos/terraform-aws-rds/actions)
+[![LICENSE](https://img.shields.io/github/license/FabioORamos/terraform-aws-rds)](https://github.com/FabioORamos/terraform-aws-rds/blob/master/LICENSE)
 
 <!--- BEGIN_TF_DOCS --->
 
@@ -84,8 +84,8 @@
 
 ## Authors
 
-Module managed by [DNX Solutions](https://github.com/DNXLabs).
+Module managed by [DNX Solutions](https://github.com/FabioORamos).
 
 ## License
 
-Apache 2 Licensed. See [LICENSE](https://github.com/DNXLabs/terraform-aws-template/blob/master/LICENSE) for full details.
+Apache 2 Licensed. See [LICENSE](https://github.com/FabioORamos/terraform-aws-template/blob/master/LICENSE) for full details.

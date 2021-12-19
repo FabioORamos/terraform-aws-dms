@@ -26,7 +26,7 @@ resource "aws_dms_endpoint" "default" {
 #     environment = "${var.environment}"
 #     created_by  = "terraform"
 #   }
-# }
+}
 
 # # Create an endpoint for the target database
 

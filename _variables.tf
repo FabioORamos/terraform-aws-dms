@@ -205,7 +205,7 @@ variable "database_name" {
   description = "The name of the endpoint database"
 }
 
-variable "endpoint_id " {
+variable "endpoint_id" {
   description = "The database endpoint identifier"
 }
 

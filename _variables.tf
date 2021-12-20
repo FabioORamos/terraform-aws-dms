@@ -49,3 +49,32 @@ variable "ssl_mode" {
   description = "The SSL mode to use for the connection. Can be one of none | require | verify-ca | verify-full"
   default = "none"
 }
+
+variable "allocated_storage" {
+  description = "The amount of storage (in gigabytes) to be initially allocated for the replication instance"
+  type        = number
+  default     = 50
+}
+
+variable "engine_version" {
+  description = "The engine version number of the replication instance"
+  default = "none"
+}
+
+variable "instance_class" {
+  description = "The compute and memory capacity of the replication instance as specified by the replication instance class"
+  default = "none"
+}
+
+variable "instance_id" {
+  description = "The replication instance identifier"
+}
+
+variable "maintenance_window" {
+  description = "The weekly time range during which system maintenance can occur, in Universal Coordinated Time (UTC)"
+  default = "none"
+}
+
+variable "availability_zone" {
+  description = "The EC2 Availability Zone that the replication instance will be created in"
+}

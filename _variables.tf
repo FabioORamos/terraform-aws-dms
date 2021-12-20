@@ -61,20 +61,24 @@ variable "engine_version" {
   default = "none"
 }
 
-variable "instance_class" {
+variable "replication_instance_class" {
   description = "The compute and memory capacity of the replication instance as specified by the replication instance class"
   default = "none"
 }
 
-variable "instance_id" {
+variable "replication_instance_id" {
   description = "The replication instance identifier"
 }
 
-variable "maintenance_window" {
+variable "preferred_maintenance_window" {
   description = "The weekly time range during which system maintenance can occur, in Universal Coordinated Time (UTC)"
   default = "none"
 }
 
 variable "availability_zone" {
   description = "The EC2 Availability Zone that the replication instance will be created in"
+}
+
+variable "subnet_ids" {
+  description = "A list of the EC2 subnet IDs for the subnet group"
 }

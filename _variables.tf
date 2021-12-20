@@ -1,5 +1,4 @@
 variable "endpoint_type" {
-  default     = ""
   description = "Endpoint type: `source` or `target`"
 }
 
